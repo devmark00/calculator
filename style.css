@@ -1,0 +1,30 @@
+.calc-body {
+width: 400px;
+margin: auto;
+min-height:500px;
+box-shadow: 0 8px 50px -7px black;
+background : #3A4655;
+}
+#calc-display {
+    width: 370px;
+    margin: 10px 10px;
+    background : rgb(83, 82, 82);
+    border: none;
+    height:50px;
+    color: aliceblue;
+}
+.calc-button {
+    width: 100px;
+    height: 60px;
+    margin: 5px 10px;
+    background-color: rgb(121, 231, 250);
+    border-radius: 5px;
+    border: rgb(76, 0, 255) solid 1px;
+    font-size: 20px;
+}
+.all-button {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
